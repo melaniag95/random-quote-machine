@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#12232E!important;
+    color: rgba(238, 251, 251, 0.9)!important;
+}
+
+
+div.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#quote-box{
+    text-align: center;
+    padding: 40px;
+    border: 1px solid rgba(238, 251, 251, 0.7);
+}
+
+.fa-quote-left{
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #007CC7;
+}
+
+#quoteText{
+    font-size: 1.4rem;
+    padding: 25px;
+}
+
+#quoteText #author{
+    color: grey;
+    margin-top: 15px;
+}
+
+.btn-container{
+    padding: 20px;
+}
+
+.hvr-glow {
+    text-transform: uppercase;
+    background-color: #007CC7!important;
+    color: #EEFBFB!important;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    margin: 10px;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
